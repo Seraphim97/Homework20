@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f1da1c-5215-4d81-aa14-0b1db752eb2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Exceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FactorialCalculator.java" afterDir="false" />
+    <list default="true" id="27f1da1c-5215-4d81-aa14-0b1db752eb2f" name="Changes" comment="#Ex.20">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Exceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FactorialCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/FactorialCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +76,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exceptions.negativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork20" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Exceptions" />
+      <option name="METHOD_NAME" value="negativeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Exceptions.positiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWork20" />
       <extension name="coverage">
@@ -115,29 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialCalculator.testCalculateFactorialWithPositiveNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HomeWork20" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FactorialCalculator" />
-      <option name="METHOD_NAME" value="testCalculateFactorialWithPositiveNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FactorialCalculator" />
+        <item itemvalue="JUnit.Exceptions.negativeTest" />
         <item itemvalue="JUnit.Exceptions.positiveTest" />
         <item itemvalue="JUnit.Exceptions" />
         <item itemvalue="JUnit.FactorialCalculator.testCalculateFactorialWithNegativeNumber" />
-        <item itemvalue="JUnit.FactorialCalculator.testCalculateFactorialWithPositiveNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +143,18 @@
       <option name="presentableId" value="Default" />
       <updated>1682529196343</updated>
     </task>
+    <task id="LOCAL-00001" summary="#Ex.20">
+      <created>1682953282059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682953282059</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="#Ex.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Ex.20" />
   </component>
 </project>

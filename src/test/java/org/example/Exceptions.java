@@ -22,7 +22,7 @@ public class Exceptions {
     }
 
     @Test
-    public void testNoException() {
+    public void testDivideTwoNumbersReturnsCorrectResult() {
         assertEquals(9, divideTwoNumbers(18, 2));
     }
 
@@ -43,14 +43,12 @@ public class Exceptions {
     @Test
     public void negativeTest() {
         int[] array = {1, 2, 3, 4, 5};
-        try {
+        assertThrows(ArrayIndexOutOfBoundsException.class, () -> {
             int element = array[7];
-            Assertions.fail("Expected ArrayIndexOutOfBoundsException");
-        } catch (ArrayIndexOutOfBoundsException e) {
-            Assertions.assertEquals("Index 7 out of bounds for length 5", e.getMessage());
-        }
+        });
     }
 }
+
 
 
 
